@@ -1,8 +1,9 @@
 # Horned Beasts React Application
 
+## created by Dustin Apodaca
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## created by Dustin Apodaca
 
 
 <!-- ## Available Scripts
