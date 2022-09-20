@@ -2,9 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Code Fellows 301 Lab 01
-
-
 
 <!-- ## Available Scripts
 
