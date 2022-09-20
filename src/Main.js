@@ -1,19 +1,30 @@
 import React from 'react';
+import HornedBeast from './HornedBeast';
+import beast1 from './assets/beast1.jpeg';
+import beast2 from './assets/beast2.jpeg';
 
 
-class App extends React.Component {
+class Main extends React.Component {
   render() {
     return (
       <>
-        <div>
-          <h3>Horned Beasts #1</h3>
-        </div>
-        <div>
-          <h3>Horned Beasts #2</h3>
+        <div id="mainDiv">
+          <HornedBeast
+            title="Fierce Dragon"
+            src={beast1}
+            description="A dragon ready to spew forth flame."
+            alt="Dragon"
+            />
+          <HornedBeast
+            title="Unicorn and Family"
+            src={beast2}
+            description="A unicorn and her child running in a field."
+            alt="Unicorn"
+            />
         </div>
       </>
     );
   }
 }
 
-export default App;
+export default Main;
