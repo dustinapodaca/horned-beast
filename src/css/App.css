@@ -16,10 +16,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 70px;
+  margin-bottom: 50px;
   background-color: rgba(0, 0, 0);
   color: white;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
@@ -32,7 +33,12 @@ h1 {
   margin: 0 auto;
 }
 
+/* #root {
+  max-width: 1500px;
+  margin: 0 auto;
+} */
 
+/* 
 #mainDiv {
   display: flex;
   flex-direction: column;
@@ -67,7 +73,7 @@ h1 {
   border: 7px solid rgb(164, 96, 96);
   transform: scale(1.03);
   z-index: -1;
-}
+} */
 
 #footerDiv {
   display: flex;
@@ -79,6 +85,7 @@ h1 {
   color: white;
   width: 100%;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
 
