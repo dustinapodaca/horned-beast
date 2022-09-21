@@ -2,9 +2,17 @@
 
 ## created by Dustin Apodaca
 
+>Number and name of feature: Feature #1: Display Images
+>
+>Estimate of time needed to complete: 3 hours.
+>
+>Start time: 2:55p.m. MST
+>
+>Finish time: 6:00p.m.
+>
+>Actual time needed to complete: 3hr 05min.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
 
 <!-- ## Available Scripts
 
