@@ -27,7 +27,7 @@ class Beasts extends React.Component {
   render() {
     return (
       <Card style={{ width: '18rem' }} className="h-100 mx-auto px-3">
-        <Card.Img className="py-4" variant="top" src={this.state.image_url} alt={this.state.keyword} title={this.state.title} />
+        <Card.Img className="py-4" variant="top" src={this.state.image_url} alt={this.state.keyword} title={this.state.title} onClick={this.props.handleShowBeast} />
         <Card.Body className="py-auto">
           <Card.Title>{this.state.title}</Card.Title>
           <Card.Text>{this.state.description}</Card.Text>
