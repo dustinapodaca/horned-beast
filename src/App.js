@@ -6,13 +6,12 @@ import Footer from './components/Footer.js';
 import data from './assets/data/data.json';
 import SelectedBeast from './components/SelectedBeast.js';
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       showModal: false,
-      selectedBeast: {},
+      displayBeast: {},
     };
   }
   
@@ -29,11 +28,10 @@ class App extends React.Component {
   }
 
   handleShowBeast = (key) => { 
-    this.setState({ showModal: true });
-    const filteredBeast = data.filter((beast) => {
-        return beast._id === key;
-      });
-      this.setState({ selectedBeast: filteredBeast[0] });
+    const selectedBeast = data.filter(beast => beast._id === key);
+    this.setState({showModal: true});
+    this.setState({displayBeast: selectedBeast[0]});
+    console.log(this.state.displayBeast);
     }
 
   render() {
@@ -42,15 +40,12 @@ class App extends React.Component {
         <Header />
         <Main 
           data={data}
-          handleShow={this.handleShow}
           handleShowBeast={this.handleShowBeast}
         />
         <SelectedBeast 
-          show={this.state.showModal}
+          showModal={this.state.showModal}
           handleClose={this.handleClose}
-          title={this.state.selectedBeast.title}
-          image_url={this.state.selectedBeast.image_url}
-          description={this.state.selectedBeast.description}
+          displayBeast={this.state.displayBeast}
         />
         <Footer />
       </>
@@ -59,22 +54,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
-
-
-
-
-
-//   render() {
-//     return (
-//       <>
-//         <Header />
-//         <Main />
-//         <Footer />
-//       </>
-//     );
-//   }
-// }
-
-// export default App;

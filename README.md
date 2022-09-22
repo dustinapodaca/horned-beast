@@ -12,6 +12,33 @@
 >
 >Actual time needed to complete: 3hr 05min.
 
+---
+
+>Number and name of feature: Feature #2: Modal Display
+>
+>Estimate of time needed to complete: 3 hours.
+>
+>Start time: 3:45p.m. MST
+>
+>Finish time: 4:35p.m. the following day.
+>
+>Actual time needed to complete: 4hr 30min.
+
+---
+
+>Number and name of feature: Feature #3: Form
+>
+>Estimate of time needed to complete: 3 hours.
+>
+>Start time: 4:45p.m. MST
+>
+>Finish time: TBD
+>
+>Actual time needed to complete: TBD
+
+---
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <!-- ## Available Scripts
