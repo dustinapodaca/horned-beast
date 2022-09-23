@@ -4,7 +4,7 @@
 
 <h1 align="center"><b>&mdash; Horned Beasts React Application &mdash;</b></h1>
 
-* created by: Dustin Apodaca
+<p align="center"><i> created by&mdash; Dustin Apodaca</i></p>
 
 ---
 ### Feature #1: Display Images
