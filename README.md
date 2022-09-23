@@ -1,7 +1,8 @@
 # Horned Beasts React Application
 
-## created by: Dustin Apodaca
+* created by: Dustin Apodaca
 
+---
 ### Feature #1: Display Images
 >
 >Estimate of time needed to complete: 3 hours.
