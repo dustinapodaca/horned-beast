@@ -1,8 +1,8 @@
 # Horned Beasts React Application
 
-## created by Dustin Apodaca
+## created by: Dustin Apodaca
 
->Number and name of feature: Feature #1: Display Images
+### Feature #1: Display Images
 >
 >Estimate of time needed to complete: 3 hours.
 >
@@ -14,7 +14,7 @@
 
 ---
 
->Number and name of feature: Feature #2: Modal Display
+### Feature #2: Modal Display
 >
 >Estimate of time needed to complete: 3 hours.
 >
@@ -26,7 +26,7 @@
 
 ---
 
->Number and name of feature: Feature #3: Form
+### Feature #3: Form
 >
 >Estimate of time needed to complete: 3 hours.
 >
