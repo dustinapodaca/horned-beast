@@ -32,9 +32,9 @@
 >
 >Start time: 4:45p.m. MST
 >
->Finish time: TBD
+>Finish time: 6:30p.m.
 >
->Actual time needed to complete: TBD
+>Actual time needed to complete: 1hr 45min.
 
 ---
 
