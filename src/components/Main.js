@@ -10,7 +10,7 @@ class Main extends React.Component {
     return (
       <>
         <Container>
-          <Row xs={1} sm={1} md={2} lg={3} xl={4} className="g-4">
+          <Row xs={1} sm={1} md={2} lg={3} xl={4} className="g-5">
             {this.props.displayBeasts.map((beast) => {
               return (
                 <Col>

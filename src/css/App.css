@@ -1,14 +1,15 @@
 html {
   margin: 0 auto;
   min-height: 100%;
+  background-color: rgb(173, 207, 207);
 }
 
 body {
   width: 100%;
   margin: 0 auto;
-  background: crimson;
-  color: white;
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #headerDiv {
@@ -16,64 +17,72 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  margin-bottom: 50px;
-  background-color: rgba(0, 0, 0);
+  height: 80px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  background-color: #1c1e21;
   color: white;
   position: sticky;
   top: 0;
   width: 100%;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
-  border-bottom: 3px solid white;
+  border-bottom: 4px solid white;
   z-index: 1;
 }
 
-
 h1 {
   margin: 0 auto;
+  font-family: 'Berkshire Swash', cursive;
 }
 
-/* #root {
-  max-width: 1500px;
-  margin: 0 auto;
+/* #cardTitle {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 400;
 } */
 
-/* 
-#mainDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  height: 100%;
-  background-color: #9f5454;
-  width: 800px;
+#cardImg {
+  max-width: 230px;
+  max-height: 100%;
+  border-radius: 10px;
+  border: 4px solid rgb(192, 220, 220);
+  transition: 350ms;
+}
+
+#cardImg:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+#root {
+background-color: rgb(173, 207, 207);
+}
+
+#modalImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 4px solid rgb(192, 220, 220);
+}
+
+#modalText {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 25px;
+  color: white;
+}
+
+#hornText {
+  font-weight: 700;
+  padding: 0 6px 0 5px;
+  border: 2px solid #1c1e21;
+  background-color: #1c1e21;
+  border-radius: 50%;
   margin: 0 auto;
-  padding-top: 80px;
-  box-shadow: 0 10px 75px rgba(0, 0, 0, 0.8);
+  margin-left: 4px;
 }
-
-.beasts {
-  border: thin solid black;
-  border-radius: 5px;
-  padding: 0 40px;
-  padding-bottom: 12px;
-  margin: 25px;
-  background-color: #000000;
-}
-
-#imgBeasts {
-  max-width: 440px;
-  border: 7px solid rgb(143, 51, 51);
-  transition: 0.5s;
-  z-index: -1;
-}
-
-#imgBeasts:hover {
-  border: 7px solid rgb(164, 96, 96);
-  transform: scale(1.03);
-  z-index: -1;
-} */
 
 #footerDiv {
   display: flex;
@@ -81,13 +90,12 @@ h1 {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  background-color: rgba(0, 0, 0);
+  background-color: #1c1e21;
   color: white;
   width: 100%;
   margin: 0 auto;
   margin-top: 60px;
 }
-
 
 #footerDiv p {
   margin: 0 auto;

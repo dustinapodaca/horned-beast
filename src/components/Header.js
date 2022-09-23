@@ -5,7 +5,7 @@ class Header extends React.Component {
     return (
       <>
         <header id="headerDiv">
-          <h1>&#9768; Horned Beasts &#9768;</h1>
+          <h1>&#8212; &#9768; Gallery of Horned Beasts &#9768; &#8212;</h1>
         </header>
       </>
     );
