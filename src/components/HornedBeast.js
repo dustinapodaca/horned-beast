@@ -28,10 +28,10 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <Card style={{ width: '18rem' }} className="h-100 mx-auto px-3">
-        <Card.Img className="py-4" variant="top" src={this.state.image_url} alt={this.state.keyword} title={this.state.title} onClick={() => {
+        <Card.Title className="pt-3">{this.state.title}</Card.Title>
+        <Card.Img className="py-1" variant="top" src={this.state.image_url} alt={this.state.keyword} title={this.state.title} onClick={() => {
           this.props.handleShowBeast(this.props.id)}} />
         <Card.Body className="py-auto">
-          <Card.Title>{this.state.title}</Card.Title>
           <Card.Text>{this.state.description}</Card.Text>
           <Card.Text>Horns: {this.state.horns}</Card.Text>
           <Card.Text>Favorites: {this.state.votes}</Card.Text>

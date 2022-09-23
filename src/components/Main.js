@@ -1,12 +1,9 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-// import data from '../assets/data/data.json';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Main extends React.Component {
   render() {
@@ -14,7 +11,7 @@ class Main extends React.Component {
       <>
         <Container>
           <Row xs={1} sm={1} md={2} lg={3} xl={4} className="g-4">
-            {this.props.data.map((beast) => {
+            {this.props.displayBeasts.map((beast) => {
               return (
                 <Col>
                   <HornedBeast
