@@ -1,4 +1,8 @@
-# Horned Beasts React Application
+<div align="center">
+  <img src="https://members-csforall.imgix.net/members/logos/code-fellows-logo-horizontal-2-color-black.png" width="340" height="66">
+</div>  
+
+<h1 align="center"><b>&mdash; Horned Beasts React Application &mdash;</b></h1>
 
 * created by: Dustin Apodaca
 
